@@ -445,19 +445,19 @@ $SKPOLY
   9
 $TDCREATE
  40
-2459823.535816805
+2459826.92579397
   9
 $TDUCREATE
  40
-2459823.410816805
+2459826.80079397
   9
 $TDUPDATE
  40
-2459823.5358514
+2459826.925865532
   9
 $TDUUPDATE
  40
-2459823.4108514
+2459826.800865532
   9
 $TDINDWG
  40
@@ -505,7 +505,7 @@ $SPLINESEGS
   9
 $HANDSEED
   5
-7A
+80
   9
 $SURFTAB1
  70
@@ -885,7 +885,7 @@ $PSTYLEMODE
   9
 $FINGERPRINTGUID
   2
-{bc306e06-6c23-4e5a-986c-c9c48a86aeeb}
+{a2d0eeed-0fa6-4a8e-9047-6f314aabc2e2}
   9
 $VERSIONGUID
   2
@@ -1817,7 +1817,7 @@ SECTION
   2
 ENTITIES
   0
-ARC
+CIRCLE
   5
 73
 330
@@ -1830,6 +1830,172 @@ AcDbEntity
 Continuous
  62
      7
+370
+    25
+100
+AcDbCircle
+ 10
+-10.0
+ 20
+80.0
+ 30
+0.0
+ 40
+1.500000000000014
+  0
+CIRCLE
+  5
+74
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbCircle
+ 10
+10.0
+ 20
+80.0
+ 30
+0.0
+ 40
+1.500000000000014
+  0
+CIRCLE
+  5
+75
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbCircle
+ 10
+0.0
+ 20
+80.0
+ 30
+0.0
+ 40
+2.500000000000014
+  0
+CIRCLE
+  5
+76
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbCircle
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+2.500000000000004
+  0
+LINE
+  5
+7B
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbLine
+ 10
+-12.5
+ 20
+67.5
+ 30
+0.0
+ 11
+-12.5
+ 21
+0.0
+ 31
+0.0
+  0
+LINE
+  5
+7C
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
+100
+AcDbLine
+ 10
+12.5
+ 20
+0.0
+ 30
+0.0
+ 11
+12.5
+ 21
+67.5
+ 31
+0.0
+  0
+ARC
+  5
+7D
+330
+1F
+100
+AcDbEntity
+  8
+0
+  6
+Continuous
+ 62
+     7
+370
+    25
 100
 AcDbCircle
  10
@@ -1849,7 +2015,7 @@ AcDbArc
   0
 ARC
   5
-74
+7E
 330
 1F
 100
@@ -1860,6 +2026,8 @@ AcDbEntity
 Continuous
  62
      7
+370
+    25
 100
 AcDbCircle
  10
@@ -1875,110 +2043,6 @@ AcDbArc
  50
 180.0
  51
-0.0
-  0
-CIRCLE
-  5
-75
-330
-1F
-100
-AcDbEntity
-  8
-0
-  6
-Continuous
- 62
-     7
-100
-AcDbCircle
- 10
-0.0
- 20
-0.0
- 30
-0.0
- 40
-0.5
-  0
-CIRCLE
-  5
-76
-330
-1F
-100
-AcDbEntity
-  8
-0
-  6
-Continuous
- 62
-     7
-100
-AcDbCircle
- 10
-0.0
- 20
-80.0
- 30
-0.0
- 40
-0.5000000000000004
-  0
-LINE
-  5
-77
-330
-1F
-100
-AcDbEntity
-  8
-0
-  6
-Continuous
- 62
-     7
-100
-AcDbLine
- 10
--12.5
- 20
-67.5
- 30
-0.0
- 11
--12.5
- 21
-0.0
- 31
-0.0
-  0
-LINE
-  5
-78
-330
-1F
-100
-AcDbEntity
-  8
-0
-  6
-Continuous
- 62
-     7
-100
-AcDbLine
- 10
-12.5
- 20
-67.5
- 30
-0.0
- 11
-12.5
- 21
-0.0
- 31
 0.0
   0
 ENDSEC
@@ -2023,7 +2087,7 @@ ACAD_SCALELIST
   3
 DWGPROPS
 350
-79
+7F
   0
 DICTIONARY
   5
@@ -2279,7 +2343,7 @@ D2
   0
 XRECORD
   5
-79
+7F
 102
 {ACAD_REACTORS
 330
@@ -2331,9 +2395,9 @@ khale
  40
 0.0
  41
-2459823.410816805
+2459826.80079397
  42
-2459823.4108514
+2459826.800865532
   1
 
  90
