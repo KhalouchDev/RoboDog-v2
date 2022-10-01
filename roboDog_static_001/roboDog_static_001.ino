@@ -51,8 +51,8 @@ void loop() {
   
   Serial.println(shoulderVal);
   Serial.println(kneeVal);*/
-  homePos();
-
+  //homePos();
+  shoulder.writeMicroseconds(1500);
 }
 
 void homePos(){

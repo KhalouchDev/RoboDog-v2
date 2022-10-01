@@ -5,8 +5,8 @@ Servo shoulder1;
 Servo elbow1;
 
 // defualt position
-int shoulder1Offset = 000;
-int elbow1Offset = 000;
+int shoulder1Offset = 1850;
+int elbow1Offset = 1875;
 
 // moving the foot forwards or backwards in the side plane
 float shoulderAngle2;
@@ -72,18 +72,19 @@ Interpolation interpX;
 Interpolation interpZ;
 
 void setup() {
-  shoulder1.attach(11);
-  elbow1.attach(10);
+  shoulder1.attach(10);
+  elbow1.attach(9);
 
   shoulder1.writeMicroseconds(shoulder1Offset);
   elbow1.writeMicroseconds(elbow1Offset);
 
   // set default position for arm
-  zTarget = 000;
-  xTarget = 000;
+  zTarget = 10;
+  xTarget = 5;
 
   Serial.begin(9600);
 }
+
 
 void loop() {
   currentMillis = millis();
@@ -91,7 +92,7 @@ void loop() {
   if(currentMillis - previousMillis >= 10){ // start timed loop
     previousMillis = currentMillis;
 
-    // step sequencer
+    /* step sequencer
     if(stepFlag == 0){
       stepFlag = 1;
     }
@@ -113,7 +114,7 @@ void loop() {
       previousStepMillis = currentMillis;
       stepFlag = 4;
     } //add more steps if needed
-    // end of step sequence
+    // end of step sequence*/
 
     // start inerpolation
 
